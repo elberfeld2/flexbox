@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1</title>
+</head>
+<body>
+    <style>
+        .cuadrado{
+            width:200px;
+            height: 200px;
+            background:#aaa;
+            animation-name: mianimacion;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            position: relative;
+            animation-timing-function:ease;
+            animation-iteration-count:infinite;
+        }
+        @keyframes mianimacion {
+            0% {background:#aaa;left: 0px;top: 0px;}
+            25% {background:#a0a;left: 300px;top: 0px;}
+            50% {background:#aa0;left: 300px;top: 300px;}
+            75% {background:#aa0;left: 0px;top: 300px;}
+            100% {background:#aa0;left: 0;top: 0;}
+        }
+    </style>
+
+    <div class="cuadrado">
+
+    </div>    
+</body>
+</html>
